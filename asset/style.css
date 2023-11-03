@@ -1,0 +1,217 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+header {
+    height:100px;
+    font-style: blue;
+    
+
+}
+
+.header {
+    max-width: 1202px;
+    height:100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+   width: 150px;
+   height: 30px;
+  
+}
+
+.logoimg {
+    padding: 5px 2px;
+    font-size: 20px;
+    font-family: 700;
+    align-items: center;
+    display: flex;
+   
+}
+
+.menu {
+   flex:1;
+   display: flex;
+   justify-content: center;
+   
+}
+
+.menu ul,
+.menu li {
+    list-style: none;
+}
+
+.menu ul {
+    display: flex;
+     
+}
+
+.menu li a {
+    color:blue;
+    text-decoration: none;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 25px;
+    align-items: center;
+    
+}
+
+.menu li a:hover {
+    border: 5px solid blue;
+}
+
+a.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin: 0 10px;
+}
+
+.why {
+   border: 2px solid blue;  
+  
+}
+
+.tax {
+    border: 2px solid blue;  
+}
+
+.over {
+    border: 2px solid blue;  
+}
+
+.sec{
+    border: 2px solid blue;  
+}
+
+
+.button {
+    width: 100px;
+         
+}
+
+input[type="button"]{
+    background-color: blue;
+    color:white;
+    padding: 8px 20px;
+    border: 1px solid blue;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.description {
+    width: 100%;
+    height: 262px;
+}
+
+.descriptionarea {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: black;
+    flex-direction: column;
+    justify-content:center;
+      
+}
+
+.description h1 {
+    font-weight: bold;
+    font-size: 47px;
+    
+}
+
+.description h1 span {
+    color: blue;
+}
+
+.description h2 {
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+.SubmitEmail {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+} 
+
+form {
+    border: 2px solid #ccc;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 7px;
+  }
+  
+  form > input {
+    border: none
+  }
+  
+  form > button {
+    background: blue;
+    border: none;
+    border-radius: 9px;
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+
+
+  .ShowCase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cardOne {
+        position: relative;
+        padding: 5px;
+        width: 261px;
+        height: 150px;
+        margin:150px;
+        border: 1px solid blue;
+        border-radius: 20px;
+        overflow: hidden;
+        transition: 0.5s;
+        margin-left: 20px;
+
+  }
+  
+  .cardImg {
+    position: relative;
+    width: 330px;
+    height: 400px;
+    background: url('../images/phonefoto.png');
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cardTwo {
+    position: relative;
+    padding: 10px;
+    width: 261px;
+    height: 150px;
+    margin-left: 150px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+   
+  }
+    
