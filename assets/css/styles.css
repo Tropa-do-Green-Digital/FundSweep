@@ -15,7 +15,7 @@ header {
 }
 
 .header {
-    max-width: 1250px;
+    max-width: 1100px;
     height: 80px;
     margin: auto;
     display: flex;
@@ -229,7 +229,7 @@ form>button {
     justify-content: center;
 }
 
-.cardTwo {
+.cardtwo {
     background-color: #F8F9FE;
     position: relative;
     padding: 10px;
@@ -242,7 +242,20 @@ form>button {
     transition: 0.5s;
 }
 
+.logoroyal {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.cardOtwo h3{
+    display: flex;
+    margin-left: 10px;
+}
+
 .royaltext {
         display: block;
+        text-align: center;
+        justify-content: center;
         margin-top: 20px;
     }
