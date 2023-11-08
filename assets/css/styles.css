@@ -162,17 +162,23 @@ form>button {
     align-items: center;
 }
 
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .cardOne {
     position: relative;
-    padding: 5px;
-    width: 261px;
+    padding: 10px;
+    width: 260px;
     height: 150px;
     margin: 150px;
     border: 1px solid blue;
     border-radius: 20px;
     overflow: hidden;
     transition: 0.5s;
-    margin-left: 20px;
     display: flex;
     flex-flow: wrap;
     background-color: #F8F9FE;
@@ -209,9 +215,10 @@ form>button {
 }
 
 .hsbctext {
-    display: flex;
-    justify-content: flex-end;
+    display: center;
+    margin-top: 20px;
 }
+
 .cardImg {
     position: relative;
     width: 330px;
@@ -226,12 +233,16 @@ form>button {
     background-color: #F8F9FE;
     position: relative;
     padding: 10px;
-    width: 261px;
+    width: 260px;
     height: 150px;
     margin-left: 150px;
     border: 1px solid blue;
     border-radius: 20px;
     overflow: hidden;
     transition: 0.5s;
-
 }
+
+.royaltext {
+        display: block;
+        margin-top: 20px;
+    }
